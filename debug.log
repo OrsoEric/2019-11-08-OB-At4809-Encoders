@@ -1,0 +1,655 @@
+Start Debug!
+-->> "main" |
+	-->> "decode_encoder_input" | in: 28
+		    0 |     0 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "generate_sin_enc_input" |
+		  ROW | ENC0 | ENC1 | ENC2 | ENC3 | WORD
+		    0 |  0.0 |  0.0 |  0.0 |  0.0 |   0
+		    1 |  0.1 |  0.1 |  0.2 |  0.3 |   0
+		    2 |  0.2 |  0.4 |  0.6 |  0.9 |   0
+		    3 |  0.4 |  0.7 |  1.2 |  1.7 |  50
+		    4 |  0.6 |  1.2 |  1.9 |  2.7 |  d4
+		    5 |  0.9 |  1.8 |  2.8 |  3.7 |  b4
+		    6 |  1.3 |  2.5 |  3.8 |  4.6 |  2d
+		    7 |  1.7 |  3.3 |  4.8 |  5.4 |  49
+		    8 |  2.2 |  4.1 |  5.8 |  6.0 |  d3
+		    9 |  2.7 |  5.0 |  6.7 |  6.3 |  f7
+		   10 |  3.3 |  6.0 |  7.6 |  6.3 |  e6
+		   11 |  4.0 |  6.9 |  8.3 |  6.0 |  ce
+		   12 |  4.7 |  7.9 |  8.9 |  5.4 |  48
+		   13 |  5.4 |  8.9 |  9.3 |  4.6 |  11
+		   14 |  6.2 |  9.9 |  9.5 |  3.7 |  97
+		   15 |  7.0 | 10.9 |  9.5 |  2.7 |  df
+		   16 |  7.8 | 11.8 |  9.3 |  1.7 |  5a
+		   17 |  8.7 | 12.6 |  8.9 |  0.9 |   0
+		   18 |  9.6 | 13.4 |  8.3 |  0.3 |   5
+		   19 | 10.5 | 14.1 |  7.6 |  0.0 |  2f
+		   20 | 11.5 | 14.7 |  6.7 |  0.0 |  3e
+		   21 | 12.4 | 15.2 |  5.8 |  0.3 |  18
+		   22 | 13.4 | 15.5 |  4.8 |  0.9 |   9
+		   23 | 14.4 | 15.8 |  3.8 |  1.7 |  6b
+		   24 | 15.4 | 15.9 |  2.8 |  2.7 |  fa
+		   25 | 16.4 | 15.9 |  1.9 |  3.7 |  98
+		   26 | 17.4 | 15.8 |  1.2 |  4.6 |  19
+		   27 | 18.4 | 15.5 |  0.6 |  5.4 |  4b
+		   28 | 19.4 | 15.2 |  0.2 |  6.0 |  ca
+		   29 | 20.4 | 14.7 | -0.0 |  6.3 |  cc
+		   30 | 21.3 | 14.1 | -0.0 |  6.3 |  cd
+		   31 | 22.2 | 13.4 |  0.2 |  6.0 |  c7
+		   32 | 23.1 | 12.6 |  0.6 |  5.4 |  42
+		   33 | 24.0 | 11.8 |  1.2 |  4.6 |  18
+		   34 | 24.9 | 10.9 |  1.9 |  3.7 |  9c
+		   35 | 25.7 |  9.9 |  2.8 |  2.7 |  f5
+		   36 | 26.4 |  8.9 |  3.8 |  1.7 |  63
+		   37 | 27.2 |  7.9 |  4.8 |  0.9 |   a
+		   38 | 27.9 |  6.9 |  5.8 |  0.3 |  1e
+		   39 | 28.5 |  6.0 |  6.7 |  0.0 |  34
+		   40 | 29.1 |  5.0 |  7.6 |  0.0 |  25
+		   41 | 29.6 |  4.1 |  8.3 |  0.3 |   1
+		   42 | 30.1 |  3.3 |  8.9 |  0.9 |   b
+		   43 | 30.5 |  2.5 |  9.3 |  1.7 |  5f
+		   44 | 30.9 |  1.8 |  9.5 |  2.7 |  d7
+		   45 | 31.2 |  1.2 |  9.5 |  3.7 |  96
+		   46 | 31.4 |  0.7 |  9.3 |  4.6 |  12
+		   47 | 31.6 |  0.4 |  8.9 |  5.4 |  42
+		   48 | 31.8 |  0.1 |  8.3 |  6.0 |  c2
+		   49 | 31.8 | -0.0 |  7.6 |  6.3 |  e2
+		   50 | 31.8 | -0.0 |  6.7 |  6.3 |  f2
+		   51 | 31.8 |  0.1 |  5.8 |  6.0 |  d2
+		   52 | 31.6 |  0.4 |  4.8 |  5.4 |  42
+		   53 | 31.4 |  0.7 |  3.8 |  4.6 |  22
+		   54 | 31.2 |  1.2 |  2.8 |  3.7 |  b6
+		   55 | 30.9 |  1.8 |  1.9 |  2.7 |  d7
+		   56 | 30.5 |  2.5 |  1.2 |  1.7 |  5f
+		   57 | 30.1 |  3.3 |  0.6 |  0.9 |   b
+		   58 | 29.6 |  4.1 |  0.2 |  0.3 |   1
+		   59 | 29.1 |  5.0 | -0.0 |  0.0 |   5
+		   60 | 28.5 |  6.0 | -0.0 |  0.0 |   4
+		   61 | 27.9 |  6.9 |  0.2 |  0.3 |   e
+		   62 | 27.2 |  7.9 |  0.6 |  0.9 |   a
+		   63 | 26.4 |  8.9 |  1.2 |  1.7 |  53
+		   64 | 25.7 |  9.9 |  1.9 |  2.7 |  d5
+		   65 | 24.9 | 10.9 |  2.8 |  3.7 |  bc
+		   66 | 24.0 | 11.8 |  3.8 |  4.6 |  28
+		   67 | 23.1 | 12.6 |  4.8 |  5.4 |  42
+		   68 | 22.2 | 13.4 |  5.8 |  6.0 |  d7
+		   69 | 21.3 | 14.1 |  6.7 |  6.3 |  fd
+		   70 | 20.4 | 14.7 |  7.6 |  6.3 |  ec
+		   71 | 19.4 | 15.2 |  8.3 |  6.0 |  ca
+		   72 | 18.4 | 15.5 |  8.9 |  5.4 |  4b
+		   73 | 17.4 | 15.8 |  9.3 |  4.6 |  19
+		   74 | 16.4 | 15.9 |  9.5 |  3.7 |  98
+		   75 | 15.4 | 15.9 |  9.5 |  2.7 |  da
+		   76 | 14.4 | 15.8 |  9.3 |  1.7 |  5b
+		   77 | 13.4 | 15.5 |  8.9 |  0.9 |   9
+		   78 | 12.4 | 15.2 |  8.3 |  0.3 |   8
+		   79 | 11.5 | 14.7 |  7.6 |  0.0 |  2e
+		   80 | 10.5 | 14.1 |  6.7 |  0.0 |  3f
+		   81 |  9.6 | 13.4 |  5.8 |  0.3 |  15
+		   82 |  8.7 | 12.6 |  4.8 |  0.9 |   0
+		   83 |  7.8 | 11.8 |  3.8 |  1.7 |  6a
+		   84 |  7.0 | 10.9 |  2.8 |  2.7 |  ff
+		   85 |  6.2 |  9.9 |  1.9 |  3.7 |  97
+		   86 |  5.4 |  8.9 |  1.2 |  4.6 |  11
+		   87 |  4.7 |  7.9 |  0.6 |  5.4 |  48
+		   88 |  4.0 |  6.9 |  0.2 |  6.0 |  ce
+		   89 |  3.3 |  6.0 | -0.0 |  6.3 |  c6
+		   90 |  2.7 |  5.0 | -0.0 |  6.3 |  c7
+		   91 |  2.2 |  4.1 |  0.2 |  6.0 |  c3
+		   92 |  1.7 |  3.3 |  0.6 |  5.4 |  49
+		   93 |  1.3 |  2.5 |  1.2 |  4.6 |  1d
+		   94 |  0.9 |  1.8 |  1.9 |  3.7 |  94
+		   95 |  0.6 |  1.2 |  2.8 |  2.7 |  f4
+		   96 |  0.4 |  0.7 |  3.8 |  1.7 |  60
+		   97 |  0.2 |  0.4 |  4.8 |  0.9 |   0
+		   98 |  0.1 |  0.1 |  5.8 |  0.3 |  10
+		   99 |  0.0 | -0.0 |  6.7 |  0.0 |  30
+		  100 |  0.0 | -0.0 |  7.6 |  0.0 |  20
+		  101 |  0.1 |  0.1 |  8.3 |  0.3 |   0
+		  102 |  0.2 |  0.4 |  8.9 |  0.9 |   0
+		  103 |  0.4 |  0.7 |  9.3 |  1.7 |  50
+		  104 |  0.6 |  1.2 |  9.5 |  2.7 |  d4
+		  105 |  0.9 |  1.8 |  9.5 |  3.7 |  94
+		  106 |  1.3 |  2.5 |  9.3 |  4.6 |  1d
+		  107 |  1.7 |  3.3 |  8.9 |  5.4 |  49
+		  108 |  2.2 |  4.1 |  8.3 |  6.0 |  c3
+		  109 |  2.7 |  5.0 |  7.6 |  6.3 |  e7
+		  110 |  3.3 |  6.0 |  6.7 |  6.3 |  f6
+		  111 |  4.0 |  6.9 |  5.8 |  6.0 |  de
+		  112 |  4.7 |  7.9 |  4.8 |  5.4 |  48
+		  113 |  5.4 |  8.9 |  3.8 |  4.6 |  21
+		  114 |  6.2 |  9.9 |  2.8 |  3.7 |  b7
+		  115 |  7.0 | 10.9 |  1.9 |  2.7 |  df
+		  116 |  7.8 | 11.8 |  1.2 |  1.7 |  5a
+		  117 |  8.7 | 12.6 |  0.6 |  0.9 |   0
+		  118 |  9.6 | 13.4 |  0.2 |  0.3 |   5
+		  119 | 10.5 | 14.1 | -0.0 |  0.0 |   f
+		  120 | 11.5 | 14.7 | -0.0 |  0.0 |   e
+		  121 | 12.4 | 15.2 |  0.2 |  0.3 |   8
+		  122 | 13.4 | 15.5 |  0.6 |  0.9 |   9
+		  123 | 14.4 | 15.8 |  1.2 |  1.7 |  5b
+		  124 | 15.4 | 15.9 |  1.9 |  2.7 |  da
+		  125 | 16.4 | 15.9 |  2.8 |  3.7 |  b8
+		  126 | 17.4 | 15.8 |  3.8 |  4.6 |  29
+		  127 | 18.4 | 15.5 |  4.8 |  5.4 |  4b
+	<<-- "generate_sin_enc_input" |
+	-->> "decode_encoder_input" | in: 0
+		    0 |     1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 0
+		    0 |     0 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 0
+		    0 |     0 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 50
+		    1 |     1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: d4
+		    1 |     0 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: b4
+		    1 |     1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 2d
+		    1 |     1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 49
+		    1 |     1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: d3
+		    1 |     1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: f7
+		    0 |     1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: e6
+		    0 |     1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: ce
+		    0 |     1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 48
+		   -1 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 11
+		   -1 |     1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 97
+		   -1 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: df
+		   -1 |     0 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 5a
+		   -1 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 0
+		   -1 |    -1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 5
+		    0 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 2f
+		    0 |    -1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 3e
+		    0 |    -1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 18
+		    0 |    -1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 9
+		    0 |    -1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 6b
+		    1 |    -1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: fa
+		    1 |    -1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 98
+		    1 |    -1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 19
+		    1 |     0 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 4b
+		    1 |    -1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: ca
+		    1 |     0 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: cc
+		    0 |     0 |    -1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: cd
+		    0 |     0 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: c7
+		    0 |     0 |    -1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 42
+		   -1 |     0 |    -1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 18
+		   -1 |     1 |    -1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 9c
+		   -1 |     0 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: f5
+		   -1 |     1 |    -1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 63
+		   -1 |     1 |    -1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: a
+		   -1 |     1 |    -1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 1e
+		    0 |     1 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 34
+		    0 |     1 |    -1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 25
+		    0 |     1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 1
+		    0 |     1 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: b
+		    0 |     0 |    -1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 5f
+		    1 |     1 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: d7
+		    1 |     0 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 96
+		    1 |     0 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 12
+		    1 |     0 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 42
+		    1 |    -1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: c2
+		    1 |     0 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: e2
+		    0 |    -1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: f2
+		    0 |    -1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: d2
+		    0 |    -1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 42
+		   -1 |    -1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 22
+		   -1 |    -1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: b6
+		   -1 |    -1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: d7
+		   -1 |    -1 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 5f
+		   -1 |     0 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: b
+		   -1 |    -1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 1
+		    0 |     0 |     1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 5
+		    0 |     0 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 4
+		    0 |     0 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: e
+		    0 |     0 |     1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: a
+		    0 |     0 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 53
+		    1 |     1 |     1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: d5
+		    1 |     0 |     1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: bc
+		    1 |     1 |     1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 28
+		    1 |     1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 42
+		    1 |     1 |     1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: d7
+		    1 |     1 |     1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: fd
+		    0 |     1 |     1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: ec
+		    0 |     1 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: ca
+		    0 |     1 |     1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 4b
+		   -1 |     0 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 19
+		   -1 |     1 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 98
+		   -1 |     0 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: da
+		   -1 |     0 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 5b
+		   -1 |     0 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 9
+		   -1 |    -1 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 8
+		    0 |     0 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 2e
+		    0 |    -1 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 3f
+		    0 |    -1 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 15
+		    0 |    -1 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 0
+		    0 |    -1 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 6a
+		    1 |    -1 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: ff
+		    1 |    -1 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 97
+		    1 |    -1 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 11
+		    1 |     0 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 48
+		    1 |    -1 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: ce
+		    1 |     0 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: c6
+		    0 |     0 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: c7
+		    0 |     0 |     0 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: c3
+		    0 |     0 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 49
+		   -1 |     0 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 1d
+		   -1 |     1 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 94
+		   -1 |     0 |    -1 |    -1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: f4
+		   -1 |     1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 60
+		   -1 |     1 |    -1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 0
+		   -1 |     1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 10
+		    0 |     1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 30
+		    0 |     1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 20
+		    0 |     1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 0
+		    0 |     1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 0
+		    0 |     0 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 50
+		    1 |     1 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: d4
+		    1 |     0 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 94
+		    1 |     0 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 1d
+		    1 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 49
+		    1 |    -1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: c3
+		    1 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: e7
+		    0 |    -1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: f6
+		    0 |    -1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: f6
+		    0 |     0 |     0 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: de
+		    0 |    -1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 48
+		   -1 |    -1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 21
+		   -1 |    -1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: b7
+		   -1 |    -1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: df
+		   -1 |    -1 |     1 |     0
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 5a
+		   -1 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 0
+		   -1 |    -1 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 5
+		    0 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: f
+		    0 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: e
+		    0 |     0 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 8
+		    0 |     0 |     1 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 9
+		    0 |     0 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 5b
+		    1 |     1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: da
+		    1 |     0 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: b8
+		    1 |     1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 29
+		    1 |     1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	-->> "decode_encoder_input" | in: 4b
+		    1 |     1 |     0 |     1
+	<<-- "decode_encoder_input" |
+	IN  | ENC0  | ENC1  | ENC2  | ENC3
+	  0 |     0 |     1 |     1 |     0
+	  0 |     0 |     1 |     1 |     0
+	  0 |     0 |     1 |     1 |     0
+	 50 |     0 |     1 |     2 |     1
+	 d4 |     0 |     2 |     2 |     2
+	 b4 |     0 |     2 |     3 |     3
+	 2d |     1 |     3 |     4 |     4
+	 49 |     1 |     4 |     5 |     5
+	 d3 |     2 |     5 |     6 |     6
+	 f7 |     2 |     6 |     7 |     6
+	 e6 |     3 |     6 |     8 |     6
+	 ce |     3 |     7 |     9 |     6
+	 48 |     4 |     8 |     9 |     5
+	 11 |     5 |     9 |    10 |     4
+	 97 |     6 |    10 |    10 |     3
+	 df |     6 |    11 |    10 |     2
+	 5a |     7 |    12 |    10 |     1
+	  0 |     8 |    13 |     9 |     0
+	  5 |     9 |    14 |     9 |     0
+	 2f |    10 |    15 |     8 |     0
+	 3e |    11 |    15 |     7 |     0
+	 18 |    12 |    16 |     6 |     0
+	  9 |    13 |    16 |     5 |     0
+	 6b |    14 |    16 |     4 |     1
+	 fa |    15 |    16 |     3 |     2
+	 98 |    16 |    16 |     2 |     3
+	 19 |    17 |    16 |     2 |     4
+	 4b |    18 |    16 |     1 |     5
+	 ca |    19 |    16 |     1 |     6
+	 cc |    20 |    15 |     1 |     6
+	 cd |    21 |    15 |     1 |     6
+	 c7 |    22 |    14 |     1 |     6
+	 42 |    23 |    13 |     1 |     5
+	 18 |    24 |    12 |     2 |     4
+	 9c |    24 |    11 |     2 |     3
+	 f5 |    25 |    10 |     3 |     2
+	 63 |    26 |     9 |     4 |     1
+	  a |    27 |     8 |     5 |     0
+	 1e |    27 |     7 |     6 |     0
+	 34 |    28 |     6 |     7 |     0
+	 25 |    29 |     6 |     8 |     0
+	  1 |    29 |     5 |     9 |     0
+	  b |    30 |     4 |     9 |     0
+	 5f |    30 |     3 |    10 |     1
+	 d7 |    30 |     2 |    10 |     2
+	 96 |    31 |     2 |    10 |     3
+	 12 |    31 |     1 |    10 |     4
+	 42 |    31 |     1 |     9 |     5
+	 c2 |    31 |     1 |     9 |     6
+	 e2 |    31 |     1 |     8 |     6
+	 f2 |    31 |     1 |     7 |     6
+	 d2 |    31 |     1 |     6 |     6
+	 42 |    31 |     1 |     5 |     5
+	 22 |    31 |     1 |     4 |     4
+	 b6 |    31 |     2 |     3 |     3
+	 d7 |    30 |     2 |     2 |     2
+	 5f |    30 |     3 |     2 |     1
+	  b |    30 |     4 |     1 |     0
+	  1 |    29 |     5 |     1 |     0
+	  5 |    29 |     6 |     1 |     0
+	  4 |    28 |     6 |     1 |     0
+	  e |    27 |     7 |     1 |     0
+	  a |    27 |     8 |     1 |     0
+	 53 |    26 |     9 |     2 |     1
+	 d5 |    25 |    10 |     2 |     2
+	 bc |    24 |    11 |     3 |     3
+	 28 |    24 |    12 |     4 |     4
+	 42 |    23 |    13 |     5 |     5
+	 d7 |    22 |    14 |     6 |     6
+	 fd |    21 |    15 |     7 |     6
+	 ec |    20 |    15 |     8 |     6
+	 ca |    19 |    16 |     9 |     6
+	 4b |    18 |    16 |     9 |     5
+	 19 |    17 |    16 |    10 |     4
+	 98 |    16 |    16 |    10 |     3
+	 da |    15 |    16 |    10 |     2
+	 5b |    14 |    16 |    10 |     1
+	  9 |    13 |    16 |     9 |     0
+	  8 |    12 |    16 |     9 |     0
+	 2e |    11 |    15 |     8 |     0
+	 3f |    10 |    15 |     7 |     0
+	 15 |     9 |    14 |     6 |     0
+	  0 |     8 |    13 |     5 |     0
+	 6a |     7 |    12 |     4 |     1
+	 ff |     6 |    11 |     3 |     2
+	 97 |     6 |    10 |     2 |     3
+	 11 |     5 |     9 |     2 |     4
+	 48 |     4 |     8 |     1 |     5
+	 ce |     3 |     7 |     1 |     6
+	 c6 |     3 |     6 |     1 |     6
+	 c7 |     2 |     6 |     1 |     6
+	 c3 |     2 |     5 |     1 |     6
+	 49 |     1 |     4 |     1 |     5
+	 1d |     1 |     3 |     2 |     4
+	 94 |     0 |     2 |     2 |     3
+	 f4 |     0 |     2 |     3 |     2
+	 60 |     0 |     1 |     4 |     1
+	  0 |     0 |     1 |     5 |     0
+	 10 |     0 |     1 |     6 |     0
+	 30 |     0 |     1 |     7 |     0
+	 20 |     0 |     1 |     8 |     0
+	  0 |     0 |     1 |     9 |     0
+	  0 |     0 |     1 |     9 |     0
+	 50 |     0 |     1 |    10 |     1
+	 d4 |     0 |     2 |    10 |     2
+	 94 |     0 |     2 |    10 |     3
+	 1d |     1 |     3 |    10 |     4
+	 49 |     1 |     4 |     9 |     5
+	 c3 |     2 |     5 |     9 |     6
+	 e7 |     2 |     6 |     8 |     6
+	 f6 |     3 |     6 |     7 |     6
+	 de |     3 |     7 |     6 |     6
+	 48 |     4 |     8 |     5 |     5
+	 21 |     5 |     9 |     4 |     4
+	 b7 |     6 |    10 |     3 |     3
+	 df |     6 |    11 |     2 |     2
+	 5a |     7 |    12 |     2 |     1
+	  0 |     8 |    13 |     1 |     0
+	  5 |     9 |    14 |     1 |     0
+	  f |    10 |    15 |     1 |     0
+	  e |    11 |    15 |     1 |     0
+	  8 |    12 |    16 |     1 |     0
+	  9 |    13 |    16 |     1 |     0
+	 5b |    14 |    16 |     2 |     1
+	 da |    15 |    16 |     2 |     2
+	 b8 |    16 |    16 |     3 |     3
+	 29 |    17 |    16 |     4 |     4
+	 4b |    18 |    16 |     5 |     5
+<<-- "main" |
+
+Debug has Ended!
